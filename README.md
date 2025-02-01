@@ -1,4 +1,4 @@
-# SEND NUDES Telegram Bot
+# SEND NOODS Telegram Bot
 
 An automated system that generates AI images to send nudes daily via Telegram using GitHub Actions.
 
@@ -273,11 +273,11 @@ output = replicate.run(
 ```python
 def generate_prompt():
     role = random.choice(roles)
-    descriptor = random.choice(nsfw_descriptors)
-    return f"YOURTRIGGERWORD as a naked {role}, showing bare tits, {descriptor}"  # Replace YOURTRIGGERWORD
+    descriptor = random.choice(descriptors)
+    return f"YOURTRIGGERWORD as a naked {role}, {descriptor}"  # Replace YOURTRIGGERWORD
 ```
 
-The trigger word must exactly match what you used during training (case-sensitive). For example, if your trigger word was "JESSICA", your prompt should start with "JESSICA as a naked...".
+The trigger word must exactly match what you used during training (case-sensitive). For example, if your trigger word was "OLGA", your prompt should start with "OLGA as a naked...".
 
 ### Testing Your Trigger Word
 
