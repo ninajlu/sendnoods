@@ -1,6 +1,6 @@
-# AI Image Generation Telegram Bot
+# Send (Flux LoRA) Noods via Telegram
 
-A system that automatically sends AI-generated images via Telegram using GitHub Actions.
+Generate your own Flux LoRA model and automatically schedule daily AI-generated images to be sent via Telegram using GitHub Actions.
 
 ## 1. Training Your Own Model
 
